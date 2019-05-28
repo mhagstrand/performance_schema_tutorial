@@ -21,7 +21,7 @@ delimiter //
 
 CREATE PROCEDURE help_task()
  BEGIN
-   SELECT "You need to call procedure test.crazy_timing() few times and find out why its execution time is different without examining code of the preocedure" AS "task";
+   SELECT "You need to call procedure test.crazy_timing() few times and find out why its execution time is different without examining the code of the procedure" AS "task";
  END//
 
 CREATE PROCEDURE help_solve()
